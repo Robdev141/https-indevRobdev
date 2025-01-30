@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+
+    h1, h2, h3 {
+      color: #444;
+    }
+
+    a {
+      text-decoration: none;
+      color: #0077b6;
+    }
+
+    a:hover {
+      color: #023e8a;
+    }
+
+    /* Header */
+    header {
+      background: #0077b6;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin: 5px 0 0;
+      font-size: 1.2rem;
+    }
+
+    /* Container */
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    /* Sections */
+    section {
+      margin-bottom: 40px;
+    }
+
+    section h2 {
+      border-bottom: 2px solid #0077b6;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
+
+    /* About Me */
+    .about-me {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .about-me img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      margin-right: 20px;
+    }
+
+    .about-me p {
+      flex: 1;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    /* Skills */
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skills span {
+      background: #0077b6;
+      color: white;
+      padding: 8px 15px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+
+    /* Projects */
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .project-card {
+      background: #f9f9f9;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .project-card img {
+      width: 100%;
+      max-width: 100px;
+      height: auto;
+      margin-bottom: 15px;
+    }
+
+    .project-card h3 {
+      margin-top: 0;
+    }
+
+    .project-card p {
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+
+    .project-card a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #0077b6;
+    }
+
+    /* Education */
+    .education {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .education-item {
+      background: #f9f9f9;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .education-item h3 {
+      margin: 0;
+      font-size: 1.2rem;
+    }
+
+    .education-item p {
+      margin: 5px 0;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 40px 0;
+      background: #0077b6;
+      color: white;
+      margin-top: 40px;
+    }
+
+    footer .social-links {
+      margin-bottom: 20px;
+    }
+
+    footer .social-links a {
+      margin: 0 10px;
+      color: white;
+      font-size: 1.5rem;
+      transition: color 0.3s;
+    }
+
+    footer .social-links a:hover {
+      color: #023e8a;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 0.9rem;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .about-me {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .about-me img {
+        margin: 0 0 20px 0;
+      }
+
+      .skills {
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dreamy Bull</h1>
+    <p>Web Developer & Designer & Youtuber</p>
+  </header>
+
+  <div class="container">
+    <!-- About Me Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about-me">
+        <img src="dreamy.jpg/ambasing-ambatukam.gif" alt="Profile Picture">
+        <p>
+          Hello! I'm Ambatu Khan, a passionate web developer with expertise in HTML, CSS, JavaScript, and more. I love creating beautiful and functional websites that provide great user experiences. When I'm not coding, I enjoy hiking, photography, and exploring new technologies.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills">
+        <span>HTML</span>
+
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>React</span>
+        <span>Node.js</span>
+        <span>Python</span>
+        <span>Git</span>
+        <span>Responsive Design</span>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project-card">
+          <img src="imageappgame.jpg/musicplayer.jpg" alt="Project 1 Logo">
+          <h3>Simple music player app </h3>
+          <p>A responsive app game built with HTML, CSS, and JavaScript.</p>
+          <a href="#">View Project</a>
+        </div>
+        <div class="project-card">
+          <img src="imageAI.jpg/jarvis.jpg" alt="Project 2 Logo">
+          <h3>Artificial intellegent</h3>
+          <p>An AI website that can generate and give answer to any people that needed help.</p>
+          <a href="#">View Project</a>
+        </div>
+        <div class="project-card">
+          <img src="image.jpg/dreambully-dreambull.jpg" alt="Project 3 Logo">
+          <h3>web portfolio with moving profile picture</h3>
+          <p>A portfolio website showcasing my skills and first project.</p>
+          <a href="#">View Project</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+      <h2>Background Education</h2>
+      <div class="education">
+        <div class="education-item">
+          <h3>Bachelor of Science in Computer Science</h3>
+          <p>University of Example, 2018 - 2022</p>
+        </div>
+        <div class="education-item">
+          <h3>Web Development Bootcamp</h3>
+          <p>Example Bootcamp, 2022</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="social-links">
+      <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+    </div>
+    <p>&copy; 2023 John Doe. All rights reserved. | <a href="#" style="color: white;">Contact Me</a></p>
+  </footer>
+
+  <!-- Font Awesome for Icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
